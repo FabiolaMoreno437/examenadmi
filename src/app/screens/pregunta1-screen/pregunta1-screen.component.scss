@@ -1,0 +1,170 @@
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.body-pregunta{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+.title-link{
+  //Fuente
+  text-align: center;
+  margin: auto;
+  font-family: Nexa-Bold;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity:1;
+}
+
+.section2{
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.texto1{
+  text-align: center;
+  font-family: Nexa-Bold;
+  font-size: 50px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.section-imagen{
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.texto2{
+  text-align: center;
+  font-family: Avenir-Bold;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 35px;
+}
+.img{
+  padding-top: 1rem;
+  width:300px ;
+  height: 132px;
+}
+
+.section-buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  //justify-content: space-between;
+  justify-content:space-around;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+.btn-anterior{
+  width: 208px;
+  height: 48px;
+  background-color: #0092B8!important;
+  border-color: #0092B8!important;
+  border-radius: 8px!important;
+  justify-content: right;
+  opacity: 1;
+  margin-top: 1%;
+}
+
+.text-btn1{
+  //Fuente
+  text-align: left;
+  font-family: Nexa-Bold;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  color: #FFFF;
+  opacity: 1;
+}
+
+.btn-siguiente{
+  width: 208px;
+  height: 48px;
+  background-color: #0092B8!important;
+  border-color: #ffffff!important;
+  border-radius: 8px!important;
+  opacity: 1;
+  margin-top: 1%;
+}
+
+.text-btn2{
+ //Fuente
+ text-align: left;
+ font-family: Nexa-Bold;
+ font-size: 16px;
+ letter-spacing: 0.8px;
+ color: #FFFF;
+ opacity: 1;
+}
+
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 16px;
+  margin-top: auto;
+  text-align: center;
+}
+.opcion1{
+  margin-left: 45% ;
+  justify-content: center;
+  align-items: center;
+  font-family: Nexa-Bold;
+ font-size: 30px;
+ letter-spacing: 0.8px;
+ margin-bottom: auto;
+}
+
+.opcion2{
+  margin-left: 45% ;
+  justify-content: center;
+  align-items: center;
+  font-family: Nexa-Bold;
+ font-size: 30px;
+ letter-spacing: 0.8px;
+}
+
+.opcion3{
+  margin-left: 45% ;
+  justify-content: center;
+  align-items: center;
+  font-family: Nexa-Bold;
+ font-size: 30px;
+ letter-spacing: 0.8px;
+}
+
+.opciones{
+  align-items: center;
+  margin: auto;
+  margin-top: 120px;
+  width: 50%;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}

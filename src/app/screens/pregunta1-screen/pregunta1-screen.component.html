@@ -1,0 +1,48 @@
+<section class="instrucciones">
+  <app-navbar></app-navbar>
+    <div class="wrapper">
+       <div class="body-pregunta">
+           <div class="title-link">
+              <span>EXAMEN</span>
+                </div>
+              </div>
+              <div class="section2">
+                <span class="texto1">Calcula la siguiente ecuacion</span>
+                <span class="texto2">2-x = x-8</span>
+              </div>
+
+              <div class="opciones">
+                <div class="opcion1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    x = 5
+                  </label>
+                </div>
+                <div class="opcion2">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    x = -5
+                  </label>
+                </div>
+
+                <div class="opcion3">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    x = 2
+                  </label>
+                </div>
+              </div>
+
+              <div class="section-buttons">
+                <button class="btn-anterior" (click)="anterior()">
+                    <span class="text-btn1">anterior</span>
+                </button>
+                <button class="btn-siguiente" (click)="siguiente()">
+                  <span class="text-btn2">siguiente</span>
+                </button>
+              </div>
+              <div class="footer">
+                <app-footer></app-footer>
+            </div>
+    </div>
+</section>
